@@ -1,3 +1,7 @@
 a.disabled {
 	pointer-events: none;
 }
+
+row * {
+	text-align: center;
+}
