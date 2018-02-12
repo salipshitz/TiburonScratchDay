@@ -2,10 +2,10 @@ var title = "Code4BelTib";
 $(document).ready(function() {
 	$(".title").append(title);
 	console.log("Hello, world!")
-	if (screen.width >= 1500) {
-		console.log("gt 1500: "+screen.width);
+	if (window.innerWidth >= 580) {
+		console.log("gt 580: "+window.innerWidth);
 		$(".navbar").addClass("fixed-top");
 	} else {
-		console.log("lt 480: "+screen.width);
+		console.log("lt 580: "+window.innerWidth);
 	}
 });
