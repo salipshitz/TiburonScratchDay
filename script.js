@@ -1,6 +1,7 @@
 var title = "Code4BelTib";
 $(document).ready(function() {
 	$(".title").append(title);
+	console.log("Hello, world!")
 	if (screen.width >= 480) {
 		console.log("gt 480: "+screen.width);
 		$(".nav").addClass("fixed-top");
