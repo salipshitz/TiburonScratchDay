@@ -1,4 +1,4 @@
-var title = "Code4BelTib";
+var title = "Tiburon Java Day";
 $(document).ready(function() {
 	$(".title").append(title);
 	console.log("Hello, world!")
