@@ -1,4 +1,4 @@
-var title = "Tiburon Java Day";
+var title = "Tiburon Scratch Day";
 $(document).ready(function() {
 	$(".title").append(title);
 	console.log("Hello, world!")
