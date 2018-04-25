@@ -1,3 +1,4 @@
+/*
 var title = "Tiburon Scratch Day";
 $(document).ready(function() {
 	$(".title").append(title);
@@ -8,3 +9,4 @@ $(document).ready(function() {
 		}
 	}
 });
+*/
