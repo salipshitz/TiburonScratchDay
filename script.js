@@ -1,12 +1,9 @@
-/*
 var title = "Tiburon Scratch Day";
 $(document).ready(function() {
-	$(".title").append(title);
-	console.log("Hello, world!")
+	$(".title").text(title);
 	while (true) {
 		if (window.innerWidth >= 580) {
 			$(".navbar").addClass("fixed-top");
 		}
 	}
 });
-*/
